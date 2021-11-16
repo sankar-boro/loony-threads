@@ -1,0 +1,13 @@
+[package]
+name = "loony-threads"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "loony"
+path = "src/bin/main.rs"
+
+[dependencies]
+futures = "0.3.17"
